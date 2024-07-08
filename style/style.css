@@ -70,12 +70,11 @@ img {
 #discount-container {
   max-width: 802.9px;
   margin: 120px auto;
-  text-align: center;
 }
 
-/* #discount-container > * + *{
+#discount-container > * + *{
     margin-top: 48px;
-} */
+}
 
 .discount-persent {
   font-family: Inter;
@@ -83,6 +82,7 @@ img {
   font-weight: 700;
   line-height: 107px;
   color: #f00;
+  text-align: center;
 }
 
 .discount-content p {
@@ -91,6 +91,7 @@ img {
   font-size: 24px;
   font-weight: 500;
   line-height: 29px;
+  text-align: center;
 }
 .discount-content h2 {
   color: rgb(7, 2, 17);
@@ -98,6 +99,7 @@ img {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
+  text-align: center;
 }
 
 .discount-image {
