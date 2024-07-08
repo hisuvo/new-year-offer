@@ -1,3 +1,6 @@
+/* merriweather and inter google font style link */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
 *,
 *::after,
 *::before {
@@ -5,18 +8,32 @@
   padding: 0;
   margin: 0;
 }
+
+/* custom style */
+:root {
+  --ff-merriweather: "Merriweather", serif;
+  --ff-inter: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 .bg-1 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+/* banner container style strat here */
 .banner-container {
+  /* max-width: 1320px; */ /*Figma requarment*/
   max-width: 1220px;
   margin: 0 auto;
   margin-top: 50px;
-  padding:150px 200px; /* it is a good way to center banner content*/
-  /* min-height: 600px; */  /*it is not a good approse */
+  padding: 150px 200px; /* it is a good way to center banner content*/
+  /* min-height: 600px; */ /*it is not a good approse */
   border-radius: 16px;
   background-image: linear-gradient(
       180deg,
@@ -46,3 +63,46 @@
   line-height: 95px;
   letter-spacing: 0%;
 }
+
+/* banner container style end here */
+
+/*Prouducts 65% discoount style start here */
+#discount-container {
+  max-width: 802.9px;
+  margin: 120px auto;
+  text-align: center;
+}
+
+#discount-container > * + *{
+    margin-top: 48px;
+}
+
+.discount-persent {
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  color: #f00;
+}
+
+.discount-content p {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.discount-content h2 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.discount-image {
+  height: 500px;
+  left: 399px;
+}
+
+/*Prouducts 65% discoount style end here */
