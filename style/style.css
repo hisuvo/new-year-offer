@@ -73,9 +73,9 @@ img {
   text-align: center;
 }
 
-#discount-container > * + *{
+/* #discount-container > * + *{
     margin-top: 48px;
-}
+} */
 
 .discount-persent {
   font-family: Inter;
